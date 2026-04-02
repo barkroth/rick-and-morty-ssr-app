@@ -7,7 +7,7 @@ import { Pagination } from '@/components/pagination';
 import { ResultsInfo } from '@/components/results-info';
 import { HydrationBoundary, QueryClient, dehydrate } from '@tanstack/react-query';
 import { characterKeys } from '@/hooks/use-characters';
-import { Atom } from 'lucide-react';
+
 
 interface PageProps {
   searchParams: Promise<SearchParams>;
