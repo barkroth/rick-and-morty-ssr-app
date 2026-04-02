@@ -8,7 +8,6 @@ import { ResultsInfo } from '@/components/results-info';
 import { HydrationBoundary, QueryClient, dehydrate } from '@tanstack/react-query';
 import { characterKeys } from '@/hooks/use-characters';
 
-
 interface PageProps {
   searchParams: Promise<SearchParams>;
 }
